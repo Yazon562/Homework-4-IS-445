@@ -16,13 +16,7 @@ div {
   }
   p {
 	position:absolute;
-	top:50%;
-	left:0;
-	right:0;
-	margin:0;
-	padding:0;
 	text-align:center;
-	
 	font-size:30px;
 	
 	-webkit-transform:translateY(-50%);
