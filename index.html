@@ -9,21 +9,15 @@
   </head>
   <body>
     <div id="emoji"> &#x1F388</div>
+    <p style="font-size:30px">&#x1F388;</p>
     <div id="explosion">&#x1F4A5</div>
+
     <p &#x1F388 ></p> 
     <script>
-    document.addEventListener('keydown', function(event) {
-    
-  });
-  document.addEventListener('keyup', function(event) {
-    if (event.code == 'KeyI' (event.metaKey)) {
-      alert('Undo!')
-    }
-    else( event.target.dataset.counter != undefined) { 
-  event.target.value++;
-}
+      
+   document.getElementById("emoji").innerHTML = String.fromCharCode(parseInt('1f388', 16));
+   document.getElementById("emoji").innerHTML = String.fromCharCode(parseInt('1f4a5', 16));
 
-});
     </script>
   </body>
 </html>

@@ -14,12 +14,17 @@ div {
     margin: 0;
     text-align:center;
   }
-
-p {
-    margin: 35px;
-    display: center;
-    font-size: 30px; 
-    
+  p {
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+	font-size:700%;
+	
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
 }
-
-
