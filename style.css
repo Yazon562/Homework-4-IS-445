@@ -5,15 +5,13 @@ body {
     justify-content: center;
 
 }
-
-#emoji {
-    font-size: 900 px;
-    position: center;
-    width: 500px;
-    height: 1000px;
-
-
-}
+div {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100px;
+    height: 100px;
+  }
 
 p {
     margin: 35px;
