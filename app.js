@@ -9,6 +9,5 @@ var emoji = document.getElementById('emoji');
 
 const handler = function (event) {… } 
 emoji.addEventListener('keyup', handler);
-function logKey(I) {
-    log.textContent += ` ${e.code}`;
+function logKey(I) 
   }
