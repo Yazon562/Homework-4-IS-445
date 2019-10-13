@@ -1,0 +1,9 @@
+input {
+    transition: width 3s;
+    width: 200px;
+  }
+  
+  .wide {
+    width: 400px;
+  }
+  
