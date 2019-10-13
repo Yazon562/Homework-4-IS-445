@@ -15,5 +15,7 @@ body {
 }
 
 p {
-    margin: 35px; 
+    margin: 35px;
+    display: center;
+    size: 30px; 
 }
