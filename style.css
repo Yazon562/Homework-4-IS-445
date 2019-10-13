@@ -6,10 +6,11 @@ body {
 
 }
 div {
-    position: center;
+    position: absolute;
     font-size: 30px;
     width: 100px;
     height: 100px;
+    margin: 0%;
   }
 
 p {
