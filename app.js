@@ -7,9 +7,6 @@ var options= {
 
 var emoji = document.getElementById('emoji');
 
-const handler = function (event) {… } 
-emoji.addEventListener('keyup', logkey);
-function logKey(I) {
-    log.textContent += ` ${e.code}`;
-}
-  
+document.querySelector('button').addEventListener('keyup', (event)=>{
+    event.targer.textContent = 'I was clicked';
+})
