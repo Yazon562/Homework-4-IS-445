@@ -18,7 +18,4 @@ div {
 	position:absolute;
 	text-align:center;
 	font-size:30px;
-	
-	-webkit-transform:translateY(-50%);
-	transform:translateY(-50%);
-}
+  }
