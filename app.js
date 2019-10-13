@@ -8,5 +8,7 @@ var options= {
 var emoji = document.getElementById('emoji');
 
 const handler = function (event) {… } 
-document.addEventListener('keyup', handler);
-document.removeEventListener('keyup', handler);
+emoji.addEventListener('keyup', handler);
+function logKey(I) {
+    log.textContent += ` ${e.code}`;
+  }
