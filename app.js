@@ -1,4 +1,4 @@
-var options = {
+var options= {
     invertx: false,
     invertv: false,
     limitx: 40, 
@@ -6,5 +6,5 @@ var options = {
 }
 
 var emoji = document.getElementById('emoji');
-var Parallax = new  (emoji,options); 
+
 
