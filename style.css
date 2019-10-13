@@ -6,9 +6,8 @@ body {
 
 }
 div {
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    position: center;
+    font-size: 30px;
     width: 100px;
     height: 100px;
   }
