@@ -1,7 +1,7 @@
 const keyboardInfo = I => {
     console.log(event.keyCode);
     const emoji = document.getElementById('emoji');
-    let fs = 30; // pull this each time from the emoji element
+    var fs = 30; // pull this each time from the emoji element
     if (event.keyCode === 73) {
 
         emoji.style.fontSize = fs + 10 + 'px';
