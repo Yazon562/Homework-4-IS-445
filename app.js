@@ -10,9 +10,14 @@ const keyboardInfo = I => {
 
         emoji.style.fontSize = fs - 10 + 'px';
     }
-    if (fs >=60){
+    if (fs >=60+'px'){
         emoji.textContent="💥";
     }
+    else {
+        fs=fs+(fs+10+'px');
+    emoji.style.fontSize=fs+"px";
+}break;
+
 }
 
 const el = document.getElementById('body');
