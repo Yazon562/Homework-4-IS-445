@@ -8,7 +8,7 @@ const keyboardInfo = I => {
     }
     if (event.keyCode = "68") {
 
-        emoji.style.fontSize = fs - 10 + 'px';
+        emoji.style.fontSize == fs - 10 + 'px';
     }
 
     
