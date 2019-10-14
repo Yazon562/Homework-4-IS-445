@@ -6,15 +6,13 @@ const keyboardInfo = I => {
 
         emoji.style.fontSize = fs + 10 + 'px';
     }
-    if (event.keyCode === "68") {
+    if (event.keyCode = "68") {
 
         emoji.style.fontSize = fs - 10 + 'px';
     }
 
     
 }
-
-
 
 const el = document.getElementById('body');
 el.addEventListener('keyup', keyboardInfo);
