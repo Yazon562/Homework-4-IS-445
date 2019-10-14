@@ -10,7 +10,10 @@ const keyboardInfo = I => {
 
         emoji.style.fontSize = fs - 10 + 'px';
     }
+    if (event.keyCode >= "60" ) {
 
+        return "&#x1F4a5 "; 
+    }
     
 }
 
