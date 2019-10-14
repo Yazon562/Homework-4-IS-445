@@ -13,3 +13,6 @@ const keyboardInfo = I => {
   
 const el = document.getElementById('body');
 el.addEventListener('keyup', keyboardInfo);
+
+}
+
