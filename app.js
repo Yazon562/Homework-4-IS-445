@@ -2,7 +2,7 @@ const keyboardInfo = I => {
     console.log(event.keyCode);
     const emoji = document.getElementById('emoji');
     let fs = 30; 
-    if (event.keyCode === 73) {
+    if (event.keyCode === "73") {
 
         emoji.style.fontSize = fs + 10 + 'px';
     }
@@ -18,4 +18,5 @@ const keyboardInfo = I => {
 
 const el = document.getElementById('body');
 el.addEventListener('keyup', keyboardInfo);
+
 
