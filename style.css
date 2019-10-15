@@ -1,24 +1,6 @@
-body {
-    margin: 0 auto;
-    padding: 50%;
-    display: center;
-    justify-content: center;
-    text-align: center;
-    }
-    
-    div#emoji {
-    position: center;
-    font-size: 30px;
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    text-align: center;
-    }
-    
-    p {
-    position: absolute;
-    text-align: center;
-    font-size: 30px;
-    }
-    
-    
+
+balloon {
+font-size: 16px;
+}
+
+
