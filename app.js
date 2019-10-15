@@ -1,22 +1,28 @@
-const keyboardInfo = I => {
-    console.log(event.keyCode);
-    const emoji = document.getElementById('emoji');
-    let fs = 30; 
-    if (event.keyCode === "73") {
+var init=16 ;
 
-        emoji.style.fontSize = fs + 10 + 'px';
+window.addEventListener("keyup",arrow) ;
+
+function arrow(event) { 
+    event.preventDefault(); 
+    var balloon = document.getElementById("balloon");  
+        switch (event.keyCode) {
+            case 73:
+                init=init-2 ;
+                 balloon.style.fontSize=init+"px" ;
+            if (init <=0){ 
+            balloon.textContent="Done" ;
+            balloon.style.fontSize = "60px" ;
+            window.removeEventListener('keyup',minus);      
+        }
+        break;
+            case 68:
+            if (init >=60){ 
+            balloon.textContent="💥" ;
+            window.removeEventListener('keyup',plus);
+        }
+        else{
+            init=init+2 ;
+            balloon.style.fontSize=init+"px" ;
+        }break;
     }
-    if (event.keyCode == "68") {
-
-        emoji.style.fontSize = fs - 10 + 'px';
-    }
-
- 
 }
-
-
-
-const el = document.getElementById('body');
-el.addEventListener('keyup', keyboardInfo);
-
-
