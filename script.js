@@ -1,4 +1,7 @@
 var init=16 ;
+
+window.addEventListener("keyup",arrow) ;
+
 function arrow(event) { 
     event.preventDefault(); 
     var balloon = document.getElementById("balloon");  
@@ -23,4 +26,3 @@ function arrow(event) {
         }break;
     }
 }
-window.addEventListener("keyup",arrow) ;
