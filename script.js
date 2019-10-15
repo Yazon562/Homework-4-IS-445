@@ -6,7 +6,7 @@ function arrow(event) {
     event.preventDefault(); 
     var balloon = document.getElementById("balloon");  
         switch (event.keyCode) {
-            case 73:
+            case 68:
                 init=init-2 ;
                  balloon.style.fontSize=init+"px" ;
             if (init <=0){ 
@@ -15,7 +15,7 @@ function arrow(event) {
             window.removeEventListener('keyup',minus);      
         }
         break;
-            case 68:
+            case 73:
             if (init >=60){ 
             balloon.textContent="💥" ;
             window.removeEventListener('keyup',plus);
