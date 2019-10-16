@@ -1,4 +1,4 @@
-var init=16 ;
+var init=30 ;
 
 window.addEventListener("keyup",arrow) ;
 
