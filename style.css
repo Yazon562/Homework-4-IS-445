@@ -1,6 +1,8 @@
 body {
-    padding: 0;
-    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 p {
