@@ -10,7 +10,7 @@ function arrow(event) {
                 init=init-10 ;
                  balloon.style.fontSize=init+"px" ;
             if (init <=0){ 
-            balloon.textContent="Done 30px" ;
+            balloon.textContent="Done" ;
             ballone.style.fontSize = "60 px" ;
             window.removeEventListener('keyup',minus);    
         }
