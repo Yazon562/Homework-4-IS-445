@@ -11,7 +11,6 @@ function arrow(event) {
                  balloon.style.fontSize=init+"px" ;
             if (init <=0){ 
             balloon.textContent="Done" ;
-            balloon.style.fontSize = "60px" ;
             window.removeEventListener('keyup',minus);      
         }
         break;
