@@ -11,7 +11,7 @@ function balloonHandler(event) {
                  balloon.style.fontSize=init+"px" ;
             if (init <=0){ 
             balloon.textContent="Done" ;
-            ballone.style.fontSize = "30px" ;
+            balloon.style.fontSize = "30px" ;
             document.removeEventListener('keyup', balloonHandler );    
         }
         break;
