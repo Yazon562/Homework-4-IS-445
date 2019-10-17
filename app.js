@@ -1,8 +1,8 @@
 var init=30 ;
 
-window.addEventListener("keyup",arrow) ;
+document.addEventListener("keyup",yaz) ;
 
-function arrow(event) { 
+function yaz(event) { 
     event.preventDefault(); 
     var balloon = document.getElementById("balloon");  
         switch (event.keyCode) {
@@ -11,14 +11,14 @@ function arrow(event) {
                  balloon.style.fontSize=init+"px" ;
             if (init <=0){ 
             balloon.textContent="Done" ;
-            ballone.style.fontSize = "60 px" ;
-            window.removeEventListener('keyup',minus);    
+            ballone.style.fontSize = "30px" ;
+            document.removeEventListener('keyup', balloon);    
         }
         break;
             case 73:
             if (init >=60){ 
             balloon.textContent="💥" ;
-            window.removeEventListener('keyup',plus);
+            document.removeEventListener('keyup', balloon);
         }
         else{
             init=init+10 ;
