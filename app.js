@@ -1,6 +1,6 @@
 var init=30 ;
 
-document.addEventListener("keyup", balloonHandler) ;
+document.addEventListener('keyup', balloonHandler) ;
 
 function balloonHandler(event) { 
     event.preventDefault(); 
