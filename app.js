@@ -12,13 +12,13 @@ function balloonHandler(event) {
             if (init <=0){ 
             balloon.textContent="Done" ;
             ballone.style.fontSize = "30px" ;
-            document.removeEventListener('keyup', balloonHandler);    
+            document.removeEventListener('keyup', balloon );    
         }
         break;
             case 73:
             if (init >=60){ 
             balloon.textContent="💥" ;
-            document.removeEventListener('keyup', balloonHandler);
+            document.removeEventListener('keyup', balloon);
         }
         else{
             init=init+10 ;
