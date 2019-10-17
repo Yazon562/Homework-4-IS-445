@@ -10,17 +10,15 @@ function arrow(event) {
                 init=init-10 ;
                  balloon.style.fontSize=init+"px" ;
             if (init <=0){ 
-            balloon.textContent="Done" ;
+            balloon.textContent="Done 30px" ;
             ballone.style.fontSize = "60 px" ;
-            window.removeEventListener('keyup',minus); 
-            window.removeEventListener('keyup',plus);     
+            window.removeEventListener('keyup',minus);    
         }
         break;
             case 73:
             if (init >=60){ 
             balloon.textContent="💥" ;
             window.removeEventListener('keyup',plus);
-            window.removeEventListener('keyup',minus);
         }
         else{
             init=init+10 ;
