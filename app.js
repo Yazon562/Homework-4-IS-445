@@ -1,8 +1,8 @@
 var init=30 ;
 
-document.addEventListener("keyup",yaz) ;
+document.addEventListener("keyup", balloonHandler) ;
 
-function yaz(event) { 
+function balloonHandler(event) { 
     event.preventDefault(); 
     var balloon = document.getElementById("balloon");  
         switch (event.keyCode) {
@@ -12,13 +12,13 @@ function yaz(event) {
             if (init <=0){ 
             balloon.textContent="Done" ;
             ballone.style.fontSize = "30px" ;
-            document.removeEventListener('keyup', balloon, plus);    
+            document.removeEventListener('keyup', balloonHandler);    
         }
         break;
             case 73:
             if (init >=60){ 
             balloon.textContent="💥" ;
-            document.removeEventListener('keyup', balloon, minus);
+            document.removeEventListener('keyup', balloonHandler);
         }
         else{
             init=init+10 ;
